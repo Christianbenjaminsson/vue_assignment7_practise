@@ -3,8 +3,14 @@
     <h2>{{ friend.name }}</h2>
     <button @click="toggleDetails">Show Details</button>
     <ul v-if="detailsAreVisible">
-      <li><strong>Phone:</strong> {{ friend.phone }}</li>
-      <li><strong>Email</strong> {{ friend.email }}</li>
+      <li>
+        <strong>Phone:</strong>
+        {{ friend.phone }}
+      </li>
+      <li>
+        <strong>Email:</strong>
+        {{ friend.email }}
+      </li>
     </ul>
   </li>
 </template>
@@ -17,7 +23,7 @@ export default {
       friend: {
         id: "manuel",
         name: "Manuel Lorenz",
-        phone: "0123 45 678",
+        phone: "0123 45678 90",
         email: "manuel@localhost.com",
       },
     };
