@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  props: ["name", "phoneNumber", "emailAddress"],
   data() {
     return {
       detailsAreVisible: false,
