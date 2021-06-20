@@ -22,7 +22,6 @@ export default {
   data() {
     return {
       detailsAreVisible: false,
-      items: [],
       friend: {
         id: "manuel",
         name: "Manuel Lorenz",
